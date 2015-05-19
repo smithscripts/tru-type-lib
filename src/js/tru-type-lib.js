@@ -68,5 +68,6 @@ var app = angular.module('tru.type.lib',
         'std.download',
         'std.float',
         'std.usa.dollar',
-        'std.select.value.converter'
+        'std.select.value.converter',
+        'std.filter'
     ]);

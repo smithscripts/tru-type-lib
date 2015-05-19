@@ -29,7 +29,7 @@ module.exports = function(config) {
             'test/directives/*.js',
             'test/services/*.js',
 
-            'test/**/*choiceLabelSpec.js',
+            'test/**/*datetimeSpanShortSpec.js',
 
             // templates
             'src/templates/**/*.html'

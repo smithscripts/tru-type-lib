@@ -4,6 +4,7 @@
         var filter;
 
         beforeEach(module('std.formatters'));
+        beforeEach(module('std.filter'));
 
         beforeEach(function () {
             inject(function (_stdDatetimeSpanShortFilter_) {

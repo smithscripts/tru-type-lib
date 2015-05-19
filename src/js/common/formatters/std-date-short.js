@@ -4,13 +4,13 @@
     var module = angular.module('std.formatters');
 
     module.filter('stdDateShort',
-        ['$filter',
-            function ($filter) {
+        ['stdFilter',
+            function (stdFilter) {
                 return function (cfg) {
                     var v = cfg.value.$;
                     if (v === null)
                         return null;
-                    return $filter('date')(v, 'MM/dd/yyyy');
+                    return stdFilter.formatDate(v, 'MM/dd/yyyy');
                 };
-    }])
+            }])
 })();
