@@ -1,0 +1,508 @@
+/* ---------------------------------------------------------------------
+Calendar Styles
+------------------------------------------------------------------------ */
+.ttl-calendar-table {
+    background: white;
+    border: solid 1px #cbcbcb;
+    border-collapse: separate;
+    border-spacing: 5px;
+    padding: 5px 5px 5px 5px !important;
+    position: absolute;
+    top: 20px;
+    width: 290px;
+    z-index: 100;
+    max-width: none !important;
+}
+
+.ttl-calendar-header {
+
+}
+
+.ttl-header-previous-button {
+    float: left;
+}
+
+.ttl-header-next-button {
+    float: right;
+}
+
+.ttl-header-text {
+    float: left;
+    text-align: center;
+    width: 200px;
+}
+
+.ttl-calendar-header-day {
+    padding: 5px 0 5px 5px;
+    width: 32px;
+    text-align: right;
+}
+
+.ttl-calendar-day {
+    text-align: right;
+}
+
+.ttl-calendar-day-text {
+    padding-right: 3px;
+}
+
+.ttl-calendar-day-hover {
+    background: gray;
+}
+/* ---------------------------------------------------------------------
+Date - Styles
+------------------------------------------------------------------------ */
+
+.ttl-date-selection {
+
+}
+
+.ttl-date-selection::selection {
+    background:lightblue;
+}
+
+.ttl-date-selection-mouse-down::selection {
+    background:transparent;
+}
+
+.ttl-date-unselectable {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* ---------------------------------------------------------------------
+std-adorner-edit - styles
+------------------------------------------------------------------------ */
+
+.ttl-adorner li {
+    list-style: none;
+}
+
+.ttl-adorner-content {
+    position:absolute;
+    z-index:1000;
+    top:0;
+    left:0;
+    background:#fff;
+    border:1px lightgray solid;
+    width:inherit;
+    padding:5px;
+}
+
+/* ---------------------------------------------------------------------
+Date-Edit Styles
+------------------------------------------------------------------------ */
+.ttl-date-wrapper {
+    width: 110px !important;
+}
+
+.ttl-date {
+    float: left;
+    width: 80px !important;
+}
+
+.ttl-date-button {
+    background-color: #eeeeee;
+    border: 1px #cccccc solid;
+    border-left-width: 0;
+    float: left;
+    height: 20px;
+    padding: 0;
+    width: 25px;
+}
+
+.ttl-date-button-icon {
+    font-size: 12px;
+}
+/* ---------------------------------------------------------------------
+Datetime-Edit Styles
+------------------------------------------------------------------------ */
+.ttl-datetime-wrapper {
+    width: 200px !important;
+}
+
+.ttl-datetime-date {
+    float: left;
+    width: 80px !important;
+}
+
+.ttl-datetime-time {
+    float: left;
+    width: 55px !important;
+}
+
+.ttl-datetime-date-button {
+    background-color: #eeeeee;
+    border: 1px #cccccc solid;
+    border-left-width: 0;
+    border-right-width: 0;
+    float: left;
+    height: 20px;
+    padding: 0;
+    width: 25px;
+}
+
+
+.ttl-datetime-time-button {
+    background-color: #eeeeee;
+    border: 1px #cccccc solid;
+    border-left-width: 0;
+    float: left;
+    height: 20px;
+    padding: 0;
+    width: 25px;
+}
+
+.ttl-datetime-button-icon {
+    font-size: 12px;
+}
+
+
+
+/* ---------------------------------------------------------------------
+File-Edit Styles
+------------------------------------------------------------------------ */
+.ttl-file-icon {
+    float: left;
+    font-size: 96px;
+}
+
+
+
+
+
+/* ---------------------------------------------------------------------
+Password-Edit Styles
+------------------------------------------------------------------------ */
+
+.ttl-password-edit-wrapper {
+    display: table;
+    width: 100%;
+}
+
+.ttl-password-edit-password-wrapper {
+    display: table-cell;
+}
+
+.ttl-password-edit-password-wrapper-editing {
+    padding-right: 4px;
+}
+
+.ttl-password-edit-password-wrapper-not-editing {
+    width: 100%;
+}
+
+.ttl-password-edit-password-confirm-wrapper {
+    display: table-cell;
+}
+
+.ttl-password-edit-password-confirm-wrapper-not-editing {
+    padding-left: 0 !important;
+}
+
+
+
+/* ---------------------------------------------------------------------
+Time-Edit Styles
+------------------------------------------------------------------------ */
+.ttl-time {
+    float: left;
+    width: 48px !important;
+}
+
+.ttl-time-button {
+    background-color: #eeeeee;
+    border: 1px #cccccc solid;
+    border-left-width: 0;
+    float: left;
+    height: 20px;
+    padding: 0;
+    width: 25px;
+}
+
+/* ---------------------------------------------------------------------
+std-checkbox-list styles
+------------------------------------------------------------------------ */
+
+.ttl-checkbox-list-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.ttl-checkbox-list {
+    margin: 0 !important;
+}
+
+/* ---------------------------------------------------------------------
+std-checkbox-query - styles
+------------------------------------------------------------------------ */
+
+.ttl-checkbox-query-wrapper {
+    padding-left:18px;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------
+std-integer-query - styles
+------------------------------------------------------------------------ */
+
+.ttl-integer-query-wrapper {
+    padding-left:18px;
+}
+/* ---------------------------------------------------------------------
+std-integer-range-query - styles
+------------------------------------------------------------------------ */
+
+.ttl-integer-range-query-start {
+    float: left;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ttl-integer-range-query-end {
+    float: left;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ttl-integer-range-query-end-input-wrapper {
+    padding-left: 24px;
+}
+
+.ttl-integer-range-query-end-icon {
+    margin-left: 6px;
+}
+/* ---------------------------------------------------------------------
+std-or-list-checkbox-query - styles
+------------------------------------------------------------------------ */
+.ttl-or-list-checkbox {
+    margin-top: 4px !important;
+}
+
+/* ---------------------------------------------------------------------
+std-integer-query - styles
+------------------------------------------------------------------------ */
+
+.ttl-or-list-checkbox-query-wrapper {
+    padding-left:18px;
+}
+/* ---------------------------------------------------------------------
+std-radio-list-button-query - styles
+------------------------------------------------------------------------ */
+
+.ttl-radio-list-button-wrapper {
+    padding-left:18px;
+}
+/* ---------------------------------------------------------------------
+std-textbox-query - styles
+------------------------------------------------------------------------ */
+
+.ttl-textbox-query-wrapper {
+    padding-left:18px;
+}
+
+/* ---------------------------------------------------------------------
+std-common - styles
+------------------------------------------------------------------------ */
+
+.ttl-no-label-width {
+    padding-left: 5px;
+    width: auto !important;
+}
+
+.ttl-invalid-indicator {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    -moz-min-width: 200px;
+    -ms-min-width: 200px;
+    -o-min-width: 200px;
+    -webkit-min-width: 200px;
+    min-width: 200px;
+    min-height: 20px;
+    max-width: 450px;
+    max-height: 40px;
+    visibility: visible;
+    display: inline-block;
+    background-color: rgb(189, 54, 47);
+    margin: 2px 0 0 0;
+    padding: 4px 10px;
+    -ms-border-radius: 3px 3px 3px 3px !important;
+    border-radius: 3px 3px 3px 3px !important;
+    background-position: 15px center;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 0 0 12px #999999;
+    -ms-box-shadow: 0 0 12px #999999;
+    box-shadow: 0 0 12px #999999;
+    color: #ffffff;
+    -ms-opacity: 0.9;
+    opacity: 0.9;
+    z-index: 1000;
+}
+
+input[type="password"].ttl-invalid-input  {
+    border: 1px solid red;
+}
+
+input[type="password"]:focus .ttl-invalid-input  {
+    border: 1px solid red;
+}
+
+.ttl-operator-icon-wrapper {
+    float: left;
+}
+
+.ttl-operator-icon {
+    color: #cbcbcb;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    outline: none;
+}
+
+.ttl-operator-icon-has-value > i {
+    color: #000000 !important;
+}
+
+.ng-invalid-invalid-date  {
+    border: 1px solid red !important;
+}
+/* ---------------------------------------------------------------------
+std-font - styles
+------------------------------------------------------------------------ */
+
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot?806wmd');
+    src:url('../fonts/icomoon.eot?#iefix806wmd') format('embedded-opentype'),
+    url('../fonts/icomoon.woff?806wmd') format('woff'),
+    url('../fonts/icomoon.ttf?806wmd') format('truetype'),
+    url('../fonts/icomoon.svg?806wmd#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="ico-"], [class*=" ico-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-end-with:before {
+    content: "\e603";
+}
+
+.ico-start-width:before {
+    content: "\e60a";
+}
+
+.ico-contains:before {
+    content: "\e60c";
+}
+
+.ico-less-than:before {
+    content: "\e60d";
+}
+
+.ico-greater-than:before {
+    content: "\e60e";
+}
+
+.ico-less-than-or-equal:before {
+    content: "\e60f";
+}
+
+.ico-greater-than-or-equal:before {
+    content: "\e610";
+}
+
+.ico-not-equal:before {
+    content: "\e611";
+}
+
+.ico-equal:before {
+    content: "\e612";
+}
+
+.ico-report:before {
+    content: "\e616";
+}
+
+.ico-file:before {
+    content: "\e615";
+}
+
+.ico-calendar:before {
+    content: "\e600";
+}
+
+.ico-cloud-download:before {
+    content: "\e601";
+}
+
+.ico-github:before {
+    content: "\e602";
+}
+
+.ico-libreoffice:before {
+    content: "\e604";
+}
+
+.ico-file-pdf:before {
+    content: "\e605";
+    color: red;
+}
+
+.ico-file-openoffice:before {
+    content: "\e606";
+}
+
+.ico-file-word:before {
+    content: "\e607";
+}
+
+.ico-file-excel:before {
+    content: "\e608";
+}
+
+.ico-file-zip:before {
+    content: "\e609";
+}
+
+.ico-file-powerpoint:before {
+    content: "\e60b";
+}
+
+.ico-file-xml:before {
+    content: "\e613";
+}
+
+.ico-file-css:before {
+    content: "\e614";
+}

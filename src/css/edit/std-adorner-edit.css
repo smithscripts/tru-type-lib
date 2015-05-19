@@ -1,0 +1,18 @@
+/* ---------------------------------------------------------------------
+std-adorner-edit - styles
+------------------------------------------------------------------------ */
+
+.ttl-adorner li {
+    list-style: none;
+}
+
+.ttl-adorner-content {
+    position:absolute;
+    z-index:1000;
+    top:0;
+    left:0;
+    background:#fff;
+    border:1px lightgray solid;
+    width:inherit;
+    padding:5px;
+}

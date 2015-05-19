@@ -1,0 +1,15 @@
+/* ---------------------------------------------------------------------
+std-checkbox-list styles
+------------------------------------------------------------------------ */
+
+.ttl-checkbox-list-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.ttl-checkbox-list {
+    margin: 0 !important;
+}

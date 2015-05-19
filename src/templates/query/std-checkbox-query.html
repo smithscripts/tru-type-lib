@@ -1,0 +1,13 @@
+<tru-label label="{{label}}">
+    <div data-ng-class="{'ttl-operator-icon-has-value': !controlValueIsUndefined() || !valueIsUndefined()}" class="ttl-operator-icon-wrapper" title="{{operatorImageMessage}}">
+        <i tabindex="-1" class="ttl-operator-icon" data-ng-class="operatorImage" data-ng-click="onOperatorClick()"></i>
+    </div>
+    <div class="ttl-checkbox-query-wrapper">
+        <input data-ng-model="field.value.$"
+               data-ng-disabled="field.editor.isEditing"
+               data-std-indeterminate
+               data-ng-if="valueIsUndefined()"
+               type="checkbox"/>
+        <p data-ng-if="!valueIsUndefined()">{{field.value.$}}</p>
+    </div>
+</tru-label>

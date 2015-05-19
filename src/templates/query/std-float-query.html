@@ -1,0 +1,15 @@
+<tru-label label="{{label}}">
+    <div data-ng-class="{'ttl-operator-icon-has-value': !controlValueIsUndefined()}" class="ttl-operator-icon-wrapper" title="{{operatorImageMessage}}">
+        <i tabindex="-1" class="ttl-operator-icon" data-ng-class="operatorImage" data-ng-click="onOperatorClick()"></i>
+    </div>
+    <div class="ttl-integer-query-wrapper">
+        <input data-ng-model="field.value.$"
+               data-ng-disabled="field.editor.isEditing"
+               data-ng-if="valueIsUndefined()"
+               data-ng-trim="false"
+               data-std-float="field.type.isNullable"
+               type="text"
+                />
+        <p data-ng-if="!valueIsUndefined()">{{field.value.$}}</p>
+    </div>
+</tru-label>

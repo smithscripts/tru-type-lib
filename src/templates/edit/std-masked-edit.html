@@ -1,0 +1,13 @@
+<tru-label label="{{label}}" field="field">
+    <input
+           data-ng-model="data.value"
+           data-ng-model-options="{ updateOn: 'default blur'}"
+           data-ng-change="onChange()"
+           data-ng-disabled="!field.editor.isEditing || !field.type.canEdit"
+           data-ng-trim="false"
+           data-std-mask="{{field.property.entryFilter}}"
+           data-z-validate
+           placeholder="{{field.property.watermark}}"
+           type="text"
+            />
+</tru-label>

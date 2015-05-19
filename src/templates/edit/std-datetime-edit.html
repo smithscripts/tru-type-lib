@@ -1,0 +1,20 @@
+<tru-label label="{{label}}" field="field">
+    <div class="ttl-datetime-wrapper">
+        <div>
+            <input data-ng-model="field.value.$"
+                   data-ng-disabled="!field.editor.isEditing || !field.type.canEdit"
+                   data-ng-trim="false"
+                   data-std-datetime="field"
+                   data-std-calendar display="show"
+                   data-z-validate
+                   type="text"
+                   style="float:left;width:140px;"/>
+        </div>
+        <button data-ng-click="show = !show"
+                data-ng-disabled="!field.editor.isEditing || !field.type.canEdit"
+                class="ttl-date-button"
+                tabindex="-1"
+                style="float:left"><i class="ttl-date-button-icon ico-calendar"></i>
+        </button>
+    </div>
+</tru-label>

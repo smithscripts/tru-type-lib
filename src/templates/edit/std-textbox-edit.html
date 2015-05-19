@@ -1,0 +1,9 @@
+<tru-label label="{{label}}" field="field">
+    <input data-ng-model="field.value.$"
+           data-ng-disabled="!field.editor.isEditing || !field.type.canEdit"
+           maxlength="{{field.type.property.maxLength}}"
+           data-ng-trim="false"
+           data-z-validate
+           type="text"
+           />
+</tru-label>

@@ -1,0 +1,9 @@
+<tru-label label="{{label}}" field="field">
+    <textarea data-ng-model="field.value.$"
+              data-ng-disabled="!field.editor.isEditing || !field.type.canEdit"
+              data-ng-trim="false"
+              data-z-validate
+              rows="{{field.property.rows}}"
+              style="width:100%;">
+    </textarea>
+</tru-label>

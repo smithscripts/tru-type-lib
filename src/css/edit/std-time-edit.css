@@ -1,0 +1,17 @@
+/* ---------------------------------------------------------------------
+Time-Edit Styles
+------------------------------------------------------------------------ */
+.ttl-time {
+    float: left;
+    width: 48px !important;
+}
+
+.ttl-time-button {
+    background-color: #eeeeee;
+    border: 1px #cccccc solid;
+    border-left-width: 0;
+    float: left;
+    height: 20px;
+    padding: 0;
+    width: 25px;
+}

@@ -1,0 +1,51 @@
+/* ---------------------------------------------------------------------
+Calendar Styles
+------------------------------------------------------------------------ */
+.ttl-calendar-table {
+    background: white;
+    border: solid 1px #cbcbcb;
+    border-collapse: separate;
+    border-spacing: 5px;
+    padding: 5px 5px 5px 5px !important;
+    position: absolute;
+    top: 20px;
+    width: 290px;
+    z-index: 100;
+    max-width: none !important;
+}
+
+.ttl-calendar-header {
+
+}
+
+.ttl-header-previous-button {
+    float: left;
+}
+
+.ttl-header-next-button {
+    float: right;
+}
+
+.ttl-header-text {
+    float: left;
+    text-align: center;
+    width: 200px;
+}
+
+.ttl-calendar-header-day {
+    padding: 5px 0 5px 5px;
+    width: 32px;
+    text-align: right;
+}
+
+.ttl-calendar-day {
+    text-align: right;
+}
+
+.ttl-calendar-day-text {
+    padding-right: 3px;
+}
+
+.ttl-calendar-day-hover {
+    background: gray;
+}

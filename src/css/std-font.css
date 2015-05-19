@@ -1,0 +1,121 @@
+/* ---------------------------------------------------------------------
+std-font - styles
+------------------------------------------------------------------------ */
+
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot?806wmd');
+    src:url('../fonts/icomoon.eot?#iefix806wmd') format('embedded-opentype'),
+    url('../fonts/icomoon.woff?806wmd') format('woff'),
+    url('../fonts/icomoon.ttf?806wmd') format('truetype'),
+    url('../fonts/icomoon.svg?806wmd#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="ico-"], [class*=" ico-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-end-with:before {
+    content: "\e603";
+}
+
+.ico-start-width:before {
+    content: "\e60a";
+}
+
+.ico-contains:before {
+    content: "\e60c";
+}
+
+.ico-less-than:before {
+    content: "\e60d";
+}
+
+.ico-greater-than:before {
+    content: "\e60e";
+}
+
+.ico-less-than-or-equal:before {
+    content: "\e60f";
+}
+
+.ico-greater-than-or-equal:before {
+    content: "\e610";
+}
+
+.ico-not-equal:before {
+    content: "\e611";
+}
+
+.ico-equal:before {
+    content: "\e612";
+}
+
+.ico-report:before {
+    content: "\e616";
+}
+
+.ico-file:before {
+    content: "\e615";
+}
+
+.ico-calendar:before {
+    content: "\e600";
+}
+
+.ico-cloud-download:before {
+    content: "\e601";
+}
+
+.ico-github:before {
+    content: "\e602";
+}
+
+.ico-libreoffice:before {
+    content: "\e604";
+}
+
+.ico-file-pdf:before {
+    content: "\e605";
+    color: red;
+}
+
+.ico-file-openoffice:before {
+    content: "\e606";
+}
+
+.ico-file-word:before {
+    content: "\e607";
+}
+
+.ico-file-excel:before {
+    content: "\e608";
+}
+
+.ico-file-zip:before {
+    content: "\e609";
+}
+
+.ico-file-powerpoint:before {
+    content: "\e60b";
+}
+
+.ico-file-xml:before {
+    content: "\e613";
+}
+
+.ico-file-css:before {
+    content: "\e614";
+}

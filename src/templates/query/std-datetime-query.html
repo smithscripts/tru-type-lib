@@ -1,0 +1,13 @@
+<tru-label label="{{label}}">
+    <div data-ng-class="{'ttl-operator-icon-has-value': field.value.$}" class="ttl-operator-icon-wrapper" title="{{operatorImageMessage}}">
+        <i tabindex="-1" class="ttl-operator-icon" data-ng-class="operatorImage" data-ng-click="field.value.$ = undefined"></i>
+    </div>
+    <div style="padding-left:18px;">
+        <input data-ng-model="field.value.$"
+               data-ng-disabled="field.editor.isEditing"
+               data-ng-trim="false"
+               data-std-date
+               type="text"
+                />
+    </div>
+</tru-label>

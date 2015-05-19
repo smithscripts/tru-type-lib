@@ -1,0 +1,27 @@
+/* ---------------------------------------------------------------------
+std-integer-range-query - styles
+------------------------------------------------------------------------ */
+
+.ttl-integer-range-query-start {
+    float: left;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ttl-integer-range-query-end {
+    float: left;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ttl-integer-range-query-end-input-wrapper {
+    padding-left: 24px;
+}
+
+.ttl-integer-range-query-end-icon {
+    margin-left: 6px;
+}

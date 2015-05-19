@@ -1,0 +1,20 @@
+<tru-label label="{{label}}" field="field">
+    <button data-ng-click="upload()"
+            data-ng-disabled="!field.editor.isEditing || !field.type.canEdit"
+            class="btn btn_textOnly">Upload</button>
+    <a data-ng-click="download()"
+       data-ng-disabled="!field.value.data"
+       download=""
+       href=""
+       class="anchorElement download btn btn_textOnly"
+       style="font-size: 12px;vertical-align: middle;">Download</a>
+    <input data-ng-model="field.property.data"
+           data-std-file-change="fileChanged($event)"
+           type="file"
+           class="fileElement"
+           style="display:none"/>
+    <div style="overflow:hidden;padding:5px;">
+        <div class="renderElement"></div>
+        <p data-ng-if="noDataMessage" style="color:red;">{{noDataMessage}}</p>
+    </div>
+</tru-label>

@@ -1,0 +1,23 @@
+/* ---------------------------------------------------------------------
+Date - Styles
+------------------------------------------------------------------------ */
+
+.ttl-date-selection {
+
+}
+
+.ttl-date-selection::selection {
+    background:lightblue;
+}
+
+.ttl-date-selection-mouse-down::selection {
+    background:transparent;
+}
+
+.ttl-date-unselectable {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

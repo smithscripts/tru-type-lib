@@ -1,0 +1,25 @@
+/* ---------------------------------------------------------------------
+Date-Edit Styles
+------------------------------------------------------------------------ */
+.ttl-date-wrapper {
+    width: 110px !important;
+}
+
+.ttl-date {
+    float: left;
+    width: 80px !important;
+}
+
+.ttl-date-button {
+    background-color: #eeeeee;
+    border: 1px #cccccc solid;
+    border-left-width: 0;
+    float: left;
+    height: 20px;
+    padding: 0;
+    width: 25px;
+}
+
+.ttl-date-button-icon {
+    font-size: 12px;
+}

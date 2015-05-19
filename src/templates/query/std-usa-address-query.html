@@ -1,0 +1,19 @@
+<tru-label label="{{label}}" field="field">
+    <div>
+        <std-textbox-query label="Address 1" field="field.children.address1"></std-textbox-query>
+    </div>
+    <div style="margin-top:5px">
+        <std-textbox-query label="Address 2" field="field.children.address2"></std-textbox-query>
+    </div>
+    <div style="margin-top:5px;width:100%;">
+        <div style="float:left;width: calc(100% - 255px);">
+            <std-textbox-query label="City" field="field.children.city"></std-textbox-query>
+        </div>
+        <div style="float:left;width:115px">
+            <std-dropdown-query label="State" field="field.children.state"></std-dropdown-query>
+        </div>
+        <div style="float:left;width:140px">
+            <std-integer-query label="Zip" field="field.children.zip"></std-integer-query>
+        </div>
+    </div>
+</tru-label>

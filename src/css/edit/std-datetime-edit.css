@@ -1,0 +1,42 @@
+/* ---------------------------------------------------------------------
+Datetime-Edit Styles
+------------------------------------------------------------------------ */
+.ttl-datetime-wrapper {
+    width: 200px !important;
+}
+
+.ttl-datetime-date {
+    float: left;
+    width: 80px !important;
+}
+
+.ttl-datetime-time {
+    float: left;
+    width: 55px !important;
+}
+
+.ttl-datetime-date-button {
+    background-color: #eeeeee;
+    border: 1px #cccccc solid;
+    border-left-width: 0;
+    border-right-width: 0;
+    float: left;
+    height: 20px;
+    padding: 0;
+    width: 25px;
+}
+
+
+.ttl-datetime-time-button {
+    background-color: #eeeeee;
+    border: 1px #cccccc solid;
+    border-left-width: 0;
+    float: left;
+    height: 20px;
+    padding: 0;
+    width: 25px;
+}
+
+.ttl-datetime-button-icon {
+    font-size: 12px;
+}

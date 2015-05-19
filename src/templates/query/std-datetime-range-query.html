@@ -1,0 +1,42 @@
+<tru-label label="{{label}}">
+    <div>
+        <div class="ttl-integer-range-query-start">
+            <div data-ng-class="{'ttl-operator-icon-has-value': data.startValue}" class="ttl-operator-icon-wrapper" title="{{startOperatorImageMessage}}">
+                <i tabindex="-1" class="ttl-operator-icon" data-ng-class="startOperatorImage" data-ng-click="data.startValue = undefined"></i>
+            </div>
+            <div style="padding-left:18px;">
+                <input data-ng-model="data.startDate"
+                       data-ng-disabled="field.property.startValue || field.editor.isEditing"
+                       data-ng-trim="false"
+                       data-std-date
+                       type="text"
+                       class="text text_full">
+                <input data-ng-model="data.startDate"
+                       data-ng-disabled="field.property.endValue"
+                       data-ng-trim="false"
+                       data-std-time
+                       type="text"
+                       class="text text_full">
+            </div>
+        </div>
+        <div class="ttl-integer-range-query-end">
+            <div data-ng-class="{'ttl-operator-icon-has-value': data.endValue}" class="ttl-operator-icon-wrapper" title="{{endOperatorImageMessage}}">
+                <i tabindex="-1" class="ttl-operator-icon ttl-integer-range-query-end-icon" data-ng-class="endOperatorImage" data-ng-click="data.endValue = undefined"></i>
+            </div>
+            <div class="ttl-integer-range-query-end-input-wrapper">
+                <input data-ng-model="data.endDate"
+                       data-ng-disabled="field.property.endValue || field.editor.isEditing"
+                       data-ng-trim="false"
+                       data-std-date
+                       type="text"
+                       class="text text_full">
+                <input data-ng-model="data.endDate"
+                       data-ng-disabled="field.property.endValue"
+                       data-ng-trim="false"
+                       data-std-time
+                       type="text"
+                       class="text text_full">
+            </div>
+        </div>
+    </div>
+</tru-label>

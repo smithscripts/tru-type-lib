@@ -1,0 +1,15 @@
+<tru-label label="{{label}}">
+    <div data-ng-class="{'ttl-operator-icon-has-value': checked || !valueIsUndefined() }" class="ttl-operator-icon-wrapper" title="{{operatorImageMessage}}">
+        <i tabindex="-1" class="ttl-operator-icon" data-ng-class="operatorImage" data-ng-click="onOperatorClick()"></i>
+    </div>
+    <div class="ttl-or-list-checkbox-query-wrapper">
+        <ul class="hList tickGroup" data-ng-if="valueIsUndefined()">
+            <li data-ng-repeat="choice in data.choices">
+                <label class="checkbox">
+                    <input class="ttl-or-list-checkbox" type="checkbox" data-ng-model="choice.checked" data-ng-disabled="field.editor.isEditing"/>{{choice.label}}
+                </label>
+            </li>
+        </ul>
+        <p data-ng-if="!valueIsUndefined()">{{data.labels.join()}}</p>
+    </div>
+</tru-label>

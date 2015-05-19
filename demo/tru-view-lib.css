@@ -1,0 +1,431 @@
+/* ---------------------------------------------------------------------
+Group Styles
+------------------------------------------------------------------------ */
+
+.tvl-container-group {
+    position: relative;
+    margin: 1.25em 0;
+    border: 1px solid #d5d5d5;
+    padding: 0 0 10px;
+}
+
+.tvl-container-group_clean {
+    border: none;
+    margin: 0;
+}
+
+.tvl-container-group-hd {
+    position: absolute;
+    display: inline-block;
+    width: auto;
+    top: -.5em;
+    padding: 0 15px;
+    margin: 0 0 0 15px;
+    background: #ffffff;
+    font-size: 1.4rem;
+    color: #000000;
+    line-height: 1;
+    border: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.tvl-container-group-bd {
+    margin-top: 5px;
+}
+
+fieldset.tvl-container-group .tvl-container-dat {
+    margin-top: 5px;
+}
+
+/* ---------------------------------------------------------------------
+Grid Styles
+------------------------------------------------------------------------ */
+
+.tvl-container-grid {
+    width: 100%;
+    font-size: 0;
+}
+
+.tvl-container-grid:before,
+.tvl-container-grid:after {
+    content: " ";
+    display: table;
+}
+
+.tvl-container-grid:after {
+    clear: both;
+}
+
+.tvl-container-grid + .tvl-container-grid {
+    margin-top: 20px;
+}
+
+.tvl-container-grid + .tvl-container-grid {
+    margin-top: 0;
+}
+
+/* ---------------------------------------------------------------------
+Grid-Col Styles
+------------------------------------------------------------------------ */
+
+.tvl-container-grid-col {
+    display: inline-block;
+//width: 25%;
+    min-width: 320px;
+    vertical-align: top;
+    font-size: 1.2rem;
+}
+
+.tvl-container-grid-col_scroll {
+    overflow: auto;
+}
+
+.tvl-container-grid-col + .tvl-container-grid-col .tvl-container-panel {
+    margin-left: 10px;
+}
+
+/* ---------------------------------------------------------------------
+Panel Styles
+------------------------------------------------------------------------ */
+
+.tvl-container-panel {
+    margin-bottom: 1px;
+}
+
+/* ---------------------------------------------------------------------
+Search Group Styles
+------------------------------------------------------------------------ */
+
+.tvl-search-group-button-wrapper {
+    margin-top: 10px;
+}
+
+/* ---------------------------------------------------------------------
+Vertical List Styles
+------------------------------------------------------------------------ */
+
+.tvl-container-vList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.tvl-container-vList > * + * {
+    display: block;
+    margin-top: 5px;
+}
+
+/* ---------------------------------------------------------------------
+Horizontal List Styles
+------------------------------------------------------------------------ */
+
+.tvl-container-hList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.tvl-container-hList:before,
+.tvl-container-hList:after {
+    content: " ";
+    display: table;
+}
+
+.tvl-container-hList:after {
+    clear: both;
+}
+
+.tvl-container-hList > * {
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    display: block;
+}
+
+.tvl-container-hList > * .tvl-container-dat {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.tvl-container-hList > *:first-child .tvl-container-dat {
+    margin-left: 0;
+}
+
+.tvl-container-hList > *:last-child .tvl-container-dat {
+    margin-right: 0;
+}
+
+/* ---------------------------------------------------------------------
+Display as Table Styles
+------------------------------------------------------------------------ */
+
+.tvl-container-dat {
+    display: table;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    width: 100%;
+}
+
+.tvl-container-dat-label {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 5px;
+    text-align: right;
+}
+
+.tvl-container-dat-none {
+    display: block !important;
+}
+
+.tvl-container-dat-label-none {
+    display: none !important;
+}
+
+.tvl-container-dat-content-none {
+    display: block !important;
+}
+
+.tvl-container-dat-top {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.tvl-container-dat-top {
+    vertical-align: middle;
+    padding-right: 5px;
+    text-align: right;
+}
+
+.tvl-container-dat-label_auto {
+    min-width: 0;
+}
+
+.tvl-container-dat-label_large {
+    min-width: 200px;
+}
+
+.tvl-container-dat-label_small {
+    min-width: 75px;
+}
+
+.tvl-container-dat-content {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.tvl-container-dat-content-top {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.tvl-container-dat-content_auto {
+    width: auto;
+}
+
+.tvl-container-dat-content_auto input,
+.tvl-container-dat-content_auto select {
+    width: auto;
+}
+
+.tvl-container-dat-content.text_full {
+    width: 100%;
+}
+
+.tvl-container-dat-content.text_date {
+    /*width: 14em;*/
+}
+
+.tvl-container-dat-content.text_phone {
+    width: 8.5em;
+}
+
+.tvl-container-dat-content.text_state {
+    width: 2.5em;
+}
+
+.tvl-container-dat-content.text_city {
+    width: 8.5em;
+}
+
+.tvl-container-dat-content.text_zip {
+    width: 7em;
+}
+
+.tvl-container-dat-content.text_search {
+    width: 100%;
+}
+
+.tvl-container-dat-content.text_block {
+    height: auto;
+}
+
+.tvl-container-dat_stacked .dat-label,
+.tvl-container-dat_stacked .dat-content {
+    display: block;
+}
+
+/* ---------------------------------------------------------------------
+Button Styles
+------------------------------------------------------------------------ */
+
+.tvl-btn {
+    display: inline-block;
+    padding: 0px 11px;
+    margin-bottom: 0;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #333333;
+    background: #f5f5f5;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    border: 1px solid #dddddd;
+    box-shadow: none;
+    cursor: pointer;
+    text-shadow: none;
+}
+
+.tvl-btn-primary {
+    color: #ffffff;
+    background: #006DCC;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.tvl-btn-primary:focus {
+    color: #ffffff !important;
+    background: #006DCC !important;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
+}
+
+.tvl-btn-info {
+    color: #ffffff;
+    background: #49AFCD;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.tvl-btn-success {
+    color: #ffffff;
+    background: #5BB75B;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.tvl-btn-warning {
+    color: #ffffff;
+    background: #FAA732;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.tvl-btn-danger {
+    color: #ffffff;
+    background: #BD362F;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.tvl-btn-inverse {
+    color: #ffffff;
+    background: #363636;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.tvl-btn.active,
+.tvl-btn:active {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background: none;
+    color: #ffffff;
+}
+
+.tvl-btn.focus,
+.tvl-btn:focus {
+    color: #000000;
+    background: #dddddd;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.tvl-btn.disabled,
+.tvl-btn[disabled] {
+    cursor: default;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.tvl-btn.disabled.active,
+.tvl-btn[disabled]:active {
+    -webkit-box-shadow: inherit;
+    -moz-box-shadow: inherit;
+    box-shadow: inherit;
+    background: #e6e6e6;
+    color: #333333;
+}
+
+
+.tvl-btn-iconOnly > [class^="icon-"],
+.tvl-btn-iconOnly > [class*=" icon-"] {
+    font-size: 2rem;
+    vertical-align: -20%;
+}
+
+.tvl-btn-iconOnly .icon_text {
+    display: none;
+}
+
+.tvl-btn-textOnly > [class^="icon-"],
+.tvl-btn-textOnly > [class*=" icon-"] {
+    display: none;
+}
+
+/* ---------------------------------------------------------------------
+Label Styles
+------------------------------------------------------------------------ */
+
+.tvl-container-label {
+    display: block;
+    float: left;
+    vertical-align: middle;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: default;
+}
+
+/* ---------------------------------------------------------------------
+Box Styles
+------------------------------------------------------------------------ */
+
+.tvl-container-box {
+    padding: 5px;
+}
+
+/* ---------------------------------------------------------------------
+Misc Styles
+------------------------------------------------------------------------ */
+
+.tvl-container-spacerAll {
+    padding: 10px;
+}
+
+.tvl-container-display-none {
+    display: none;
+}
+
+.tvl-container-input-wrapper {
+    position: relative;
+    height: 20px;
+}

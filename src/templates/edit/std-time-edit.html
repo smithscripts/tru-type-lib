@@ -1,0 +1,20 @@
+<tru-label label="{{label}}" field="field">
+    <div>
+        <div style="float:left">
+            <input data-ng-model="field.value.$"
+                   data-std-duration
+                   data-std-duration-period="data.period"
+                   data-ng-disabled="!field.editor.isEditing || !field.type.canEdit"
+                   data-ng-trim="false"
+                   data-z-validate
+                   placeholder="__:__"
+                   type="text"
+                   class="text text_full ttl-time"/>
+        </div>
+        <button data-ng-click="setPeriod()"
+                data-ng-disabled="!field.editor.isEditing || !field.type.canEdit"
+                class="ttl-time-button"
+                style="float:left">{{data.period}}
+        </button>
+    </div>
+</tru-label>

@@ -1,0 +1,9 @@
+<tru-label label="{{label}}" field="field">
+    <select data-ng-model="data.value"
+            data-ng-options="x.value.$ as x.label for x in choices"
+            data-ng-change="onChange()"
+            data-ng-disabled="!field.editor.isEditing || !field.type.canEdit"
+            data-z-validate
+            class="dropdown control">
+    </select>
+</tru-label>
